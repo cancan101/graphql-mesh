@@ -455,7 +455,7 @@ enum queryInput_getInvitees_status {
 "Floats that will have a value greater than 0."
 scalar PositiveFloat
 
-union getScheduledEvents_response = getScheduledEvents_200_response | getInvitees_400_response | getInvitees_401_response | getInvitees_403_response | getInvitees_404_response | getInvitees_500_response
+union getScheduledEvents_response = getScheduledEvents_200_response | getScheduledEvents_400_response | getScheduledEvents_401_response | getScheduledEvents_403_response | getScheduledEvents_404_response | getScheduledEvents_500_response
 
 "Service response"
 type getScheduledEvents_200_response {
